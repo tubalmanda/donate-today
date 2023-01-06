@@ -9,6 +9,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 1440px;
 }
 hr{
     color: #DADADA;
@@ -103,4 +104,33 @@ hr{
 }
 .donte-today-containter button{
     margin-top: 30px;
+}
+
+/* Donate Our Plan */
+.donate-plan-container{
+    
+}
+.donate-category-content{
+    display: flex;
+    align-items: left;
+    gap: 24px;
+    
+}
+.donate-category-food{
+    margin-left: 150px;
+    padding: 60px 20px 54px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    align-items: left;
+}
+.donate-category-shelter{
+    padding: 60px 20px 54px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+.donate-category-child{
+    margin-right: 150px;
+    padding: 60px 20px 54px;
+    background: #FFF4D6;
+    border-radius: 5px;
 }
