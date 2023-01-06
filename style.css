@@ -151,17 +151,19 @@ hr {
     text-align: left;
 }
 
-.dependency-content{
+.dependency-content {
     width: 490px;
 }
 
 .h2-title {
     font-weight: 700;
     font-size: 45px;
+    margin-bottom: 20px;
 }
 
 .dependency-container p {
     margin-top: 20px;
+
 }
 
 .dependency-container button {
@@ -197,18 +199,69 @@ hr {
 .need-us-container {
     display: flex;
     margin-top: 130px;
-    
+
     justify-content: center;
     align-items: center;
     text-align: left;
 }
 
-.need-us-content{
+.need-us-content {
     margin-left: 84px;
     width: 490px;
 }
+
 .need-us-container img {
     width: 456px;
     height: 477px;
-    
+
+}
+
+.need-us-container p {
+    margin-top: 20px;
+
+}
+
+.need-us-container button {
+    margin-top: 30px;
+}
+
+/* Update / Subcription Section */
+.update-container {
+    margin-top: 130px;
+
+}
+
+.subcrib-container {
+    width: 810px;
+    height: 200px;
+    background-color: #FFF4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.humble-container {
+    background-color: black;
+    color: wheat;
+    Width: 1440px;
+    Height: 177px;
+    text-align: center;
+    justify-content: center;
+}
+
+.humble-container h3 {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FF5959;
+    margin-bottom: 24px;
 }
