@@ -9,11 +9,14 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 1440px;
+    width: 1280px;
+    margin: 0 auto;
 }
-hr{
+
+hr {
     color: #DADADA;
 }
+
 /* Let's help section star */
 .lets-help-container {
     display: flex;
@@ -102,35 +105,110 @@ hr{
     margin-top: 50px;
     margin-bottom: 10px;
 }
-.donte-today-containter button{
+
+.donte-today-containter button {
     margin-top: 30px;
 }
 
 /* Donate Our Plan */
-.donate-plan-container{
-    
-}
-.donate-category-content{
+.donate-plan-container {}
+
+.donate-category-content {
     display: flex;
     align-items: left;
     gap: 24px;
-    
+
 }
-.donate-category-food{
+
+.donate-category-food {
     margin-left: 150px;
     padding: 60px 20px 54px;
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     align-items: left;
 }
-.donate-category-shelter{
+
+.donate-category-shelter {
     padding: 60px 20px 54px;
     background: rgba(255, 89, 89, 0.1);
     border-radius: 5px;
 }
-.donate-category-child{
+
+.donate-category-child {
     margin-right: 150px;
     padding: 60px 20px 54px;
     background: #FFF4D6;
     border-radius: 5px;
+}
+
+/* Donation Dependency */
+.dependency-container {
+    display: flex;
+    margin-top: 130px;
+    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.dependency-content{
+    width: 490px;
+}
+
+.h2-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.dependency-container p {
+    margin-top: 20px;
+}
+
+.dependency-container button {
+    margin-top: 30px;
+}
+
+.dependency-container img {
+    width: 456px;
+    height: 477px;
+    margin-left: 83px;
+    margin-right: 250px;
+}
+
+/* They need us 
+
+.h2-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.need-us-container p {
+    margin-left: 94px;
+    margin-right: 250px;
+}
+
+.need-us--container button {
+    margin-left: 94px;
+    margin-right: 250px;
+}
+
+
+*/
+.need-us-container {
+    display: flex;
+    margin-top: 130px;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.need-us-content{
+    margin-left: 84px;
+    width: 490px;
+}
+.need-us-container img {
+    width: 456px;
+    height: 477px;
+    
 }
